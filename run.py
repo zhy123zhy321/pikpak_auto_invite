@@ -16,7 +16,7 @@ PROXY = ''
 INVITE_CODE = os.getenv('INVITE_CODE') or input('请输入邀请码: ')
 
 
-# 检查变量
+# 检查变量 
 def check_env():
     if not INVITE_CODE:
         print('请按照文档设置INVITE_CODE环境变量')
